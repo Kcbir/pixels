@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Please cite this manuscript and accompanying software when using PIXELS."
+title: "A Lagrangian View of Trading Pixels for Parameters"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Murjani
+    given-names: Kabir
+    affiliation: Nirma University
+  - family-names: Joshi
+    given-names: Aum
+    affiliation: Nirma University
+  - family-names: Bhattacharjee
+    given-names: Kuntal
+    affiliation: Nirma University
+repository-code: "https://github.com/Kcbir/pixels"
+url: "https://github.com/Kcbir/pixels"
+keywords:
+  - underwater object detection
+  - image compensation
+  - computational resource allocation
+  - Lagrangian optimization
+  - ICVGIP 2026
+preferred-citation:
+  type: unpublished
+  title: "A Lagrangian View of Trading Pixels for Parameters"
+  authors:
+    - family-names: Murjani
+      given-names: Kabir
+    - family-names: Joshi
+      given-names: Aum
+    - family-names: Bhattacharjee
+      given-names: Kuntal
+  year: 2026
+  url: "https://github.com/Kcbir/pixels"
+  notes: "Manuscript prepared for ICVGIP 2026; acceptance and final publication metadata are not asserted."

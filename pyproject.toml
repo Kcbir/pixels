@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixels-allocation"
+version = "0.1.0"
+description = "A Lagrangian view of trading pixels for parameters"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  {name = "Kabir Murjani"},
+  {name = "Aum Joshi"},
+  {name = "Kuntal Bhattacharjee"}
+]
+dependencies = [
+  "numpy>=2.0,<3",
+  "opencv-python>=4.10,<5",
+  "scipy>=1.14,<2",
+  "matplotlib>=3.9,<4",
+  "PyYAML>=6.0,<7"
+]
+
+[project.optional-dependencies]
+neural = ["torch>=2.5,<3", "torchvision>=0.20,<1", "ultralytics>=8.3,<9"]
+export = ["onnx>=1.16,<2", "onnxruntime>=1.19,<2"]
+
+[project.scripts]
+pixels = "scr.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/Kcbir/pixels"
+
+[tool.setuptools]
+packages = ["scr"]
